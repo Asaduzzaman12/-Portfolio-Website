@@ -248,16 +248,13 @@ label {
     opacity: 0.8;
 }
 .main-menu {}
-.main-menu ul {
-    margin-right: 50px;
-}
 .main-menu ul li {
     float: left;
     margin-left: 30px;
 }
 .main-menu ul li a {
     display: block;
-    padding: 20px 10px;
+    padding: 20px 5px;
     color: #fff;
     font-size: 17px;
     transition: .3s linear;
@@ -272,7 +269,7 @@ label {
     background-image: linear-gradient(to left, #1f576a, #206679, #227686, #268693, #2c979f);
     transition: all .4s ease-out;
     top: 25px;
-    left: -50px;
+    left: -64px;
     text-align: center;
     line-height: 1;
     transform: rotate(-45deg);
@@ -282,10 +279,9 @@ label {
     font-weight: 700;
 }
 .sticky-header.sticky .main-header .logo {
-    top: 9px;
+    top: 13px;
     left: 10px;
-    transform: rotate(0deg); 
-   
+    transform: rotate(0deg);
 }
 .main-header .logo a {
 	display: block;
@@ -322,6 +318,30 @@ label {
 	}
 }
 
+
+/* Mobile menu (bootstrap customization )*/
+.main-menu .navbar-nav {
+    margin-left: auto;
+}
+.navbar-light .navbar-toggler {
+    background: #fff;
+    margin-top: 18px;
+}
+.navbar-toggler.collapsed span {
+    color: #209bbc;
+    font-size: 20px;
+    outline: 0;
+}
+.navbar-toggler.mixitup-control-active {
+    color: #209bbc;
+    font-size: 20px;
+    outline: 0;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    color: #209bbc;
+    font-size: 20px;
+    outline: 0;
+}
 /*
 ==========================================
     Hero-area css

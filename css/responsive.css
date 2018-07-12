@@ -33,11 +33,22 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+	.header-area {
+	    min-height: 72px;
+	}
 	.main-menu ul {
     	margin-right: 15px;
 	}
 	.main-menu ul li {
 	    margin-left: 10px;
+	}
+	.main-menu ul li a {
+	    padding: 5px 0;
+	    text-align: center;
+	}
+	.sticky-header.sticky .main-menu .navbar-nav {
+		margin-left: auto;
+		margin-top: 20px;
 	}
 	.hero-content h1 {
 	    font-size: 50px;
@@ -70,18 +81,23 @@
 
 }
 /* small mobile :320px. */
-.header-area.sticky-header.sticky .mobile-menu-wrapper{
-    position: static;
-}
 @media (max-width: 767px) {
-	.main-menu {
-    	display: none;
+	.header-area {
+	    min-height: 72px;
 	}
 	.main-menu ul {
     	margin-right: 15px;
 	}
 	.main-menu ul li {
 	    margin-left: 10px;
+	}
+	.main-menu ul li a {
+	    padding: 5px 0;
+	    text-align: center;
+	}
+	.sticky-header.sticky .main-menu .navbar-nav {
+		margin-left: auto;
+		margin-top: 20px;
 	}
 	.hero-content h1 {
     	font-size: 40px;
