@@ -243,9 +243,9 @@ label {
     left: 0;
     width: 100%;
     height: auto;
-    background: #000;
+    background: #515569;
     z-index: 9999;
-    opacity: 0.8;
+    opacity: 1;
 }
 .main-menu {}
 .main-menu ul li {
