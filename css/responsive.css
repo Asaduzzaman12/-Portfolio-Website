@@ -36,9 +36,6 @@
 	.header-area {
 	    min-height: 72px;
 	}
-	.main-menu ul {
-    	margin-right: 15px;
-	}
 	.main-menu ul li {
 	    margin-left: 10px;
 	}
@@ -84,9 +81,6 @@
 @media (max-width: 767px) {
 	.header-area {
 	    min-height: 72px;
-	}
-	.main-menu ul {
-    	margin-right: 15px;
 	}
 	.main-menu ul li {
 	    margin-left: 10px;
